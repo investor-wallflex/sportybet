@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.maincontainer{
+    background: black;
+    color: chartreuse;
+    height: 500vh;
+    width: 100%;
+    padding-top: 20px;
+    max-height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middlesection{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    border-radius: 0 30px;
+    padding: 20px;
+    padding-left: 30px;
+   
+   
+}
+.nigerialogo{
+    width: 40px;
+    
+}
+#nigerialogosection{
+    display:flex;
+    text-align: center;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+  
+ 
+    
+}
+
+.topmiddlesection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.closeImageSection{
+    height: fit-content;
+    align-items: center;
+    margin-top: 10px;
+    display: inline-block;
+   
+}
+
+a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.nigeriaText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-right: 40px;
+    
+}
+.chageText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+
+}
+input{
+    width: 450px;
+    height: 45px;
+    background: transparent;
+    border: solid chartreuse;
+    color: white;
+    
+    
+}
+
+    
+    
+    
+    .passwordInputDiv{
+        margin-top: 30px;
+    }
+    .bothInputDiv{
+        margin-top: 40px;
+        
+        
+    }
+    .checkBox{
+        width: fit-content;
+        display: flex;
+        margin-top: 10px;
+       
+    }
+    .checkBox input{
+        width: 20px;
+        align-items: center;
+    }
+    .remember-me{
+     text-align: center;
+     margin-left: 10px;
+     margin-top: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+    }
+
+    .checkBox p{
+        color:grey;
+    }
+    .loginButton{
+        width:460px ;
+        height: 50px;
+        margin-top: 20px;
+        font-size: medium;
+        background-color: gray;
+        border-radius: 10px;
+        box-shadow: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+      
+        .loginButton:hover {
+            background-color: chartreuse;
+        }
+    .todeactivateDiv{
+        margin-top: 20px;
+        color: grey;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .middlesectionloginButton{
+        width: 500px;
+        height: 500vh;
+        margin: auto;
+        border-radius: 0 30px;
+        padding: 20px;
+        
+        max-width: fit-content;
+        box-sizing: content-box;
+       
+        
+        
+    }
+    .topdiv img{
+        width:500px
+    }
+    .slider-wrapper{
+        position: relative;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .slider-wrapper img{
+        width: 500px;
+    }
+    .slider{
+        display: flex;
+        aspect-ratio: 17 / 3;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow: none;
+        scrollbar-color:none;
+        
+        
+    }
+    .imageSection{
+        margin-top: 0;
+    }
+    .slider-P{
+        display: flex;
+        aspect-ratio: 17 / 3;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow: none;
+        scrollbar-color:none;
+        gap: 60px;
+        align-items: center;
+        
+    }
+    .slider-P p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        text-align: start;
+        text-decoration: ;
+    }
+    .livesection{
+        display: flex;
+        text-align: center;
+      
+    }
+        
+    .noneDivsection{
+        background-color: #353A45;
+        margin-top: 10px;
+        height: 40px;
+        text-align: center;
+       
+    }
+  
+    .noneDivsection{
+        color:#9CA0AB ;
+    }
+    .oods-button button{
+        width: 100px;
+        background-color: #353A45;
+        color: chartreuse;
+    }
+     .oods-button {
+        margin-left: 20px;
+        
+    }
+
+    .oods-button button:hover{
+        background-color: chartreuse;
+        color: black;
+        
+        
+    }
+    .nav img{
+        width: 100px;
+    }
+
+    .navDivsection{
+        background-color: #353A45;
+        margin-top: 10px;
+        height: 80px;
+        text-align: center;
+    }
+    .hrDiv hr{
+        margin-top: 30px;
+       
+    }
+    hr{ color: #9CA0AB;
+    }
+    .AboutusDiv{
+        text-decoration: underline;
+        color: #9CA0AB;
+    }
+    .AboutusDiv p{
+        color: #9CA0AB;
+    }

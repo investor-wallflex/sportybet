@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        
+        }
+        .navBar{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height:50px;
+            max-height: max-content;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+        
+          
+        }
+       
+    
+            
+            
+                
+        
+        
+
+        .link a{
+            margin: 0px 20px;
+            
+        }
+        
+         
+        
+        @media screen and (min-width:0px){
+           .navBar{
+            display: flex;
+           }
+           .link a{
+            display: none;
+           }
+        }
+            
+        @media screen and (min-width:400px){
+           
+            .navBar {
+                display: block;
+                
+                align-content: center;
+
+            }
+            .linka {
+                display: inline-block;
+            }
+            .menuBar{
+                display: none;
+            }
+            
+          
+            
+           
+           
+        }
+
+        @media screen and (min-width:600px){
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="navBar">
+        <div class="logoDiv">
+            <p>LOGO</p>
+        </div>
+        <div class="link">
+            
+                <a>Home</a>
+                <a>Service</a>
+                <a>Product</a>
+                <a>About Us</a>
+            
+        </div>
+        <div class="menuBar">
+            <img src="./image-for-sporty/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
